@@ -39,74 +39,92 @@ public class Feeder implements FeederInterface {
     @Column(name = "updated_on")
     private Timestamp updatedOn;
 
+    @Override
     public long getId() {
         return id;
     }
 
+    @Override
     public void setId(long id) {
         this.id = id;
     }
 
+    @Override
     public long getSubstationId() {
         return substationId;
     }
 
+    @Override
     public void setSubstationId(long substationId) {
         this.substationId = substationId;
     }
 
+    @Override
     public String getFeederName() {
         return feederName;
     }
 
+    @Override
     public void setFeederName(String feederName) {
         this.feederName = feederName;
     }
 
+    @Override
     public String getFeederType() {
         return feederType;
     }
 
+    @Override
     public void setFeederType(String feederType) {
         this.feederType = feederType;
     }
 
+    @Override
     public String getStatus() {
         return status;
     }
 
+    @Override
     public void setStatus(String status) {
         this.status = status;
     }
 
+    @Override
     public String getCreatedBy() {
         return createdBy;
     }
 
+    @Override
     public void setCreatedBy(String createdBy) {
         this.createdBy = createdBy;
     }
 
+    @Override
     public Timestamp getCreatedOn() {
         return createdOn;
     }
 
+    @Override
     public void setCreatedOn(Timestamp createdOn) {
         this.createdOn = createdOn;
     }
 
+    @Override
     public String getUpdatedBy() {
         return updatedBy;
     }
 
+    @Override
     public void setUpdatedBy(String updatedBy) {
         this.updatedBy = updatedBy;
     }
 
+    @Override
     public Timestamp getUpdatedOn() {
         return updatedOn;
     }
 
+    @Override
     public void setUpdatedOn(Timestamp updatedOn) {
         this.updatedOn = updatedOn;
     }
